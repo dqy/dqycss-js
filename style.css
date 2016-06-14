@@ -1,0 +1,18 @@
+/*
+ * Creat date 2016-06-14
+ * Last modified 2016-06-14
+ * dqycss-js v1.0.0 (https://github.com/dqy/dqycss-js.git)
+ * Copyright 2016-2016 淡轻语.
+ * Licensed under MIT (https://github.com/dqy/dqycss-js/blob/master/LICENSE.md)
+ */
+
+
+/*
+ *倒影
+ *说明:-webkit-box-reflect:above(倒影方向:above(上),below(下),left(左),right(右)) 
+ *    0(倒影间隔) 
+ *    -webkit-linear-gradient(transparent(倒影开始方向:left(左),right(右),top(上),bottom(下)),transparent 50%(排除阴影范围),rgba(255,255,255,.2))
+ * */
+.dqy-reflect{
+	-webkit-box-reflect:below 0 -webkit-linear-gradient(transparent,transparent 50%,rgba(255,255,255,.2));
+}
